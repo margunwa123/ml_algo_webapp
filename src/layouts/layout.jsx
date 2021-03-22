@@ -3,11 +3,11 @@ import Footer from "./footer";
 import Header from "./header";
 // komponen layout utama
 
-function Layout({ children }) {
+function Layout({ children, className }) {
   return (
     <div>
       <Header />
-      {children}
+      <main className={className}>{children}</main>
       <Footer />
     </div>
   );

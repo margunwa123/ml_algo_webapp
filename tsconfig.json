@@ -5,21 +5,13 @@
     "strict": true /* Enable all strict type-checking options. */,
     "baseUrl": "." /* Base directory to resolve non-absolute module names. */,
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@algo/*": [
-        "./packages/*"
-      ]
+      "@/*": ["./src/*"],
+      "@algo/*": ["./packages/*"]
     },
     "esModuleInterop": true,
     "skipLibCheck": true /* Skip type checking of declaration files. */,
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "noEmit": true,
     "moduleResolution": "node",
@@ -27,12 +19,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
